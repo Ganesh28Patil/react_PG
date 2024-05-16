@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import TodoItem from './components/TodoItem';
@@ -12,7 +11,7 @@ function App() {
   return (
     <div className="App">
         <Title />
-        <h1>|| test APP ||  </h1>        
+        <h1>|| Naive Todo APP ||  </h1>        
         <div className='todo-container'>
           <Header title = 'Todoie App' />
           <TodoItem item = 'Mango' />
